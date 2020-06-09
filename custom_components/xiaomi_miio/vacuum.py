@@ -41,7 +41,7 @@ from .const import (
 _LOGGER = logging.getLogger(__name__)
 
 DEFAULT_NAME = "Xiaomi Vacuum cleaner"
-DATA_KEY = "vacuum.xiaomi_miio_custom"
+DATA_KEY = "vacuum.xiaomi_miio"
 
 PLATFORM_SCHEMA = PLATFORM_SCHEMA.extend(
     {
